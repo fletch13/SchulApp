@@ -1,0 +1,125 @@
+<resources>
+
+    <string name="app_name">P-Sem</string>
+
+    <!--activity_week_view strings -->
+    <string name="monthViewButtonText">Monat</string>
+    <string name="changeTableButtonName">Bearbeiten</string>
+
+    <!--activity_month_view strings -->
+    <string name="weekViewButtonText">Woche</string>
+
+    <!--activity_event_edit strings -->
+    <string name="tvEventName">Name:</string>
+    <string name="saveEventButtonText">Speichern</string>
+    <string name="BtnExitEventEdit">Abbrechen</string>
+
+        <!--dialog_subject_selection strings -->
+        <string name="btnCancleEvntEdit">Abbrechen</string>
+        <string name="btnTakeEvent">Bestätigen</string>
+
+    <!--activityübergreifende strings im Kalendar -->
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+    <string name="mondayColumnName">MO</string>
+    <string name="tuesdayColumnName">DI</string>
+    <string name="wednesdayColumnName">MI</string>
+    <string name="thursdayColumnName">DO</string>
+    <string name="fridayColumnName">FR</string>
+    <string name="saturdayColumnName">SA</string>
+    <string name="sundayColumnName">SO</string>
+    <string name="btnEventDescription">newEventButton</string>
+
+    <!--activity_menu strings -->
+    <string name="menuStundenplanerButton">Stundenplaner</string>
+    <string name="menuEinstellungenButton">Einstellungen</string>
+    <string name="menuTaschenrechnerButton">Taschenrechner</string>
+    <string name="menuVokabelnButton">Vokabeln</string>
+
+    <!--activity_settings strings -->
+    <string name="resetAll">Stundenplaner zurücksetzen</string>
+    <string name="calendarDropDown">Kalender</string>
+    <string name="faecherliste_aufrufen">Fächerliste</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="Bundesland">Bundesland</string>
+    <string name="VokabelnLöschen">Vokabeln zurücksetzen</string>
+    <string-array name="lessonCount">
+        <item>6</item>
+        <item>7</item>
+        <item>9</item>
+        <item>11</item>
+    </string-array>
+
+        <!--dialog_subject_list strings -->
+        <string name="btnDeleteSubject">Entfernen</string>
+        <string name="btnAddSubject">Hinzufügen</string>
+        <string name="changeSubjectList">Bearbeiten</string>
+
+        <!--dialog_create_subject strings -->
+        <string name="etNameHint">Name des Fachs</string>
+        <string name="etShortageHint">Kürzel des Fachs</string>
+        <string name="btnSaveSubject">Fertig</string>
+
+    <!--activity_übergreifend -->
+    <string name="menuButtonName">Hauptmenü</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="event">event</string>
+
+    <!--activity_calculator -->
+    <string name="eins">1</string>
+    <string name="zwei">2</string>
+    <string name="drei">3</string>
+    <string name="vier">4</string>
+    <string name="fuenf">5</string>
+    <string name="sechs">6</string>
+    <string name="sieben">7</string>
+    <string name="acht">8</string>
+    <string name="neun">9</string>
+    <string name="nulll">0</string>
+
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="mal">×</string>
+    <string name="geteilt">÷</string>
+
+    <string name="potenz">^</string>
+    <string name="plusminus">±</string>
+    <string name="klammern">()</string>
+    <string name="komma">,</string>
+    <string name="ergibt">=</string>
+    <string name="prozent">%</string>
+    <string name="wurzel">√</string>
+    <string name="xaus">x!</string>
+    <string name="clear">C</string>
+    <string name="loeschen">DEL</string>
+    <string name="lKlammer">(</string>
+    <string name="rKlammer">)</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="ln">ln</string>
+
+    <string name="display">Eingabe hier vornehmen</string>
+
+    <!--activity_Translator_a.o. -->
+    <string name="text_card_front">cardFront</string>
+    <string name="text_card_back">cardBack</string>
+    <string name="text_button_flip">Flip</string>
+    <string name="text_title_karteikarten">Karteikarten</string>
+    <string name="text_button_learn">Lernen</string>
+    <string name="text_button_newvocab">Neu Erstellen</string>
+    <string name="text_title_newvocab">Neu Erstellen</string>
+    <string name="text_box_word">Originalwort</string>
+    <string name="text_box_meaning">Wortbedeutung</string>
+    <string name="text_button_save">Speichern</string>
+    <string name="text_button_goback">Zurück</string>
+    <string name="text_title_lernen">Lernen</string>
+    <string name="text_box_solution">Lösung eingeben</string>
+    <string name="bearbeitenButton">Bearbeiten</string>
+    <string name="eintragLoeschenButton">Eintrag löschen</string>
+    <string name="eintraegeBetrachtenButton">Einträge betrachten</string>
+    <string name="tvLessonCount">Stundenanzahl pro Tag</string>
+    <string name="text_btnShuffle">Lernen (Shuffle)</string>
+</resources>

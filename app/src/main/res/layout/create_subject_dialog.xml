@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etSubjectName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etNameHint"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/etSubjectShortage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etShortageHint"
+        android:maxLength="3"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSaveSubject"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/btnSaveSubject"
+            android:textAllCaps="false"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>

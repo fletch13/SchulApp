@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/menuButtonName"
+        android:onClick="openMenu"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center|start"
+        android:onClick="giveSubjectlist"
+        android:text="@string/faecherliste_aufrufen"
+        android:textAllCaps="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center|start"
+            android:layout_marginStart="17dp"
+            android:textSize="20sp"
+            android:text="@string/tvLessonCount"/>
+
+        <Spinner
+            android:id="@+id/spinLessonCount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/resetAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:onClick="resetCalAndTime"
+        android:text="@string/resetAll" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/themeChange"
+        android:text="@string/dark_theme"
+        android:onClick="DarkThemeOn"/>
+
+    <Button
+        android:id="@+id/BundeslandPickerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteVocabs"
+        android:text="@string/VokabelnLöschen"
+        android:onClick="deleteVocabs"
+        android:visibility="gone"/>
+
+</LinearLayout>

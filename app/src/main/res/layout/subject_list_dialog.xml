@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lldialogContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/subjectRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"/>
+
+    <LinearLayout
+        android:id="@+id/llBtnChangeSubjectlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btnDeleteSubjects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="deleteSubjects"
+            android:text="@string/btnDeleteSubject"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            tools:ignore="NestedWeights" />
+
+        <Button
+            android:id="@+id/btnAddSubjects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="addSubjects"
+            android:text="@string/btnAddSubject"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnChangeSubjectlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/changeSubjectList"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:onClick="changeSubjectlist" />
+
+</LinearLayout>

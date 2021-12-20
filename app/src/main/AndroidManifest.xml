@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hanno.test">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/appiconhaus"
+        android:roundIcon="@drawable/appiconhaus"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TEST">
+        <activity android:name=".ThirdActivity"
+            android:screenOrientation="locked"/>
+        <activity android:name=".SecondActivity"
+            android:screenOrientation="locked"/>
+        <activity android:name=".TranslatorActivity"
+            android:screenOrientation="locked"/>
+        <activity android:name=".CalculatorActivity"
+            android:screenOrientation="locked"/>
+        <activity android:name=".SettingsActivity"
+            android:screenOrientation="locked"/>
+        <activity android:name=".MonthViewActivity"
+            android:screenOrientation="locked"/>
+        <activity android:name=".EventEditActivity"
+            android:screenOrientation="locked"/>
+        <activity android:name=".WeekViewActivity"
+            android:screenOrientation="locked"/>
+        <activity android:name=".MenuActivity"
+            android:screenOrientation="locked">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
